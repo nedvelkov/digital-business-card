@@ -1,10 +1,12 @@
 import React from "react";
 import Segment from "./Segment";
 import InfoSegment from "./InfoSegment";
+import Avatar from "./Avatar"
 
 function MainContent() {
   return (
     <div className="mainStyle">
+      <Avatar/>
       <InfoSegment
         name="Nedyalko Velkov"
         possition="Fullstack developer"
